@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import Menu from '@/app/components/menu';
 
 export const metadata: Metadata = {
   title: 'NextJS Studies',
@@ -12,8 +13,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
-      <body>{children}</body>
+    <html lang="pt-BR">
+      <body>
+        <Menu />
+        {children}
+      </body>
     </html>
   );
 }
