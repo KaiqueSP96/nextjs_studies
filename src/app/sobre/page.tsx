@@ -1,11 +1,13 @@
-import { Metadata } from "next";
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Sobre'
-}
+  title: 'Sobre',
+};
 
 export default function SobrePage() {
   return (
-   <h1>Sobre</h1>
+    <main>
+      <h1>Sobre</h1>
+    </main>
   );
 }

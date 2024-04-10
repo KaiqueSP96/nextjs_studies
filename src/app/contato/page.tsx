@@ -5,6 +5,8 @@ export const metadata: Metadata = {
 };
 export default function ContatoPage() {
   return (
-  <h1>Contato</h1>
+    <main>
+      <h1>Contato</h1>
+    </main>
   );
 }
